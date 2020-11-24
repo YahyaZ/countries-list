@@ -1,0 +1,22 @@
+.l-countries-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 0;
+}
+
+.c-countries-items {
+    margin: 0;
+    padding: 50px 0;
+}
+
+.c-countries-item {
+    width: 300px;
+}
+
+.c-countries-item a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}

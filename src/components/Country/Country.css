@@ -1,0 +1,30 @@
+.l-country {
+    margin-top: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.l-country > * + * {
+    margin-top: 48px;
+}
+
+.c-back-button {
+    margin: 10px 15px;
+}
+
+.c-country-flag-placeholder {
+    text-align: center;
+    min-height: 200px;
+}
+
+.c-country-flag {
+    max-width: 400px;
+    max-height: 400px;
+}
+
+.c-country-name {
+    text-align: center;
+    margin-top: 24px;
+}
